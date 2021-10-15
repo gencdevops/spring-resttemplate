@@ -51,4 +51,14 @@ public class PostalCode {
         this.longitude = longitude;
     }
 
+    @Override
+    public String toString() {
+        return "PostalCode{" +
+                "adminName1='" + adminName1 + '\'' +
+                ", adminCode1='" + adminCode1 + '\'' +
+                ", placeName='" + placeName + '\'' +
+                ", latitude=" + latitude +
+                ", longitude=" + longitude +
+                '}';
+    }
 }
